@@ -29,8 +29,6 @@ Create an isolated **NAT Network** with the CIDR block `10.0.0.0/24` to allow in
   <p><em>Figure 2: Creating the NAT Network</em></p>
 </div>
 
-
-
 ---
 
 ### 🔹 Step 4: Import Kali Linux VM
@@ -48,7 +46,7 @@ Attach the VM network adapter to your newly created **NAT Network** and verify I
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4693fc38-807d-4c95-8f32-4808745bfb0a" alt="Kali IP Configuration Verification" width="70%" />
+  <img src="https://github.com/user-attachments/assets/7847830e-2356-45a0-b767-157f2d0c8d11" alt="Kali IP Configuration Verification" width="50%" />
   <p><em>Figure 4: Verifying IP Assignment</em></p>
 </div>
 
@@ -58,6 +56,11 @@ Attach the VM network adapter to your newly created **NAT Network** and verify I
 Take a snapshot of your clean Kali installation so you can revert back at any time.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8a713348-ffb4-4521-8184-e943760be4cf" alt="Take VM Snapshot" width="65%" />
-  <p><em>Figure 5: Creating the Base Snapshot</em></p>
+  <img src="https://github.com/user-attachments/assets/8a713348-ffb4-4521-8184-e943760be4cf" alt="Take VM Snapshot Action" width="65%" />
+  <p><em>Figure 5: Initiating the Base Snapshot</em></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4c565de3-7bb3-447b-9cea-4529f509c5ea" alt="Snapshot Tree and Overview" width="90%" />
+  <p><em>Figure 6: Confirmed Snapshot in VirtualBox Manager</em></p>
 </div>
