@@ -21,12 +21,12 @@ Create an isolated **NAT Network** with the CIDR block `10.0.0.0/24` to allow in
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f77d4031-82ca-42dc-8dc0-a6f4789bd2ec" alt="Configure 10.0.0.0/24 Subnet" width="85%" />
-  <p><em>Figure 2: Configuring Subnet CIDR (10.0.0.0/24)</em></p>
+  <p><em>Figure 1: Configuring Subnet CIDR (10.0.0.0/24)</em></p>
 </div>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/12285dbc-1410-4f5d-a79f-99082d1ec7d8" alt="Create NAT Network" width="85%" />
-  <p><em>Figure 1: Creating the NAT Network</em></p>
+  <p><em>Figure 2: Creating the NAT Network</em></p>
 </div>
 
 
