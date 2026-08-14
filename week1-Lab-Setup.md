@@ -41,7 +41,9 @@ Download the ready-to-use **Kali Linux** virtual machine file and open it in Vir
 Set Kali's network adapter to use your NAT Network, then start the machine and check that it receives an IP address.
 
 <div align="center">
-  
+ ![Uploading Screenshot 2026-08-11 160214.png…]()
+
+ 
 <img width="953" height="439" alt="Screenshot 2026-08-11 160214" src="https://github.com/user-attachments/assets/b0d5e721-8db8-4b92-83fb-d63d5024aed6" />
 
   <p><em>1. Set Adapter 1 to <b>NAT Network</b></em></p>
@@ -64,5 +66,5 @@ Take a snapshot of your fresh setup. This lets you restore Kali anytime if somet
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4c565de3-7bb3-447b-9cea-4529f509c5ea" alt="Snapshot Created" width="90%" />
-  <p><em>2. Snapshot saved successfully</em></p>
+  <p><em>2. Making sure the VM is Connected to the network</em></p>
 </div>
