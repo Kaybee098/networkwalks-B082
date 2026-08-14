@@ -41,13 +41,15 @@ Download the ready-to-use **Kali Linux** virtual machine file and open it in Vir
 Set Kali's network adapter to use your NAT Network, then start the machine and check that it receives an IP address.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b0dad2ee-72e7-474a-a387-75a9ef244f5d" alt="Select NAT Network" width="85%" />
+  
+<img width="953" height="439" alt="Screenshot 2026-08-11 160214" src="https://github.com/user-attachments/assets/b0d5e721-8db8-4b92-83fb-d63d5024aed6" />
+
   <p><em>1. Set Adapter 1 to <b>NAT Network</b></em></p>
 </div>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/7847830e-2356-45a0-b767-157f2d0c8d11" alt="Check IP Address" width="50%" />
-  <p><em>2. Confirm you have a <code>10.0.0.x</code> IP address</em></p>
+  <p><em>2. Confirm you have a <code>10.0.0.2</code> IP address</em></p>
 </div>
 
 ---
