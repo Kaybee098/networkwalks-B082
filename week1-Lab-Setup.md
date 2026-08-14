@@ -56,7 +56,7 @@ Set Kali's network adapter to use your NAT Network, then start the machine and c
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4c565de3-7bb3-447b-9cea-4529f509c5ea" alt="Snapshot Created" width="90%" />
-  <p><em>2. Making sure the VM is Connected to the network</em></p>
+  <p><em>3. Making sure the VM is Connected to the network</em></p>
 </div>
 
 ---
