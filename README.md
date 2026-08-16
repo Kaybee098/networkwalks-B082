@@ -1,70 +1,29 @@
-# 🛡️ Cybersecurity Lab Setup
+# 🛡️ Cybersecurity Internship — Networkwalks
+
+Hands-on cybersecurity tasks, lab implementations, and security assessments completed during the **Networkwalks** internship program (Aug 2026 – Sep 2026).
 
 ---
 
-## 📌 Phase 1: Kali Linux Setup
-
-### 🔹 Step 1: Install 7-Zip
-Download and install **7-Zip** to extract zipped files:
-* **Link:** [Download 7-Zip](https://7-zip.org/download.html)
-
----
-
-### 🔹 Step 2: Install VirtualBox
-Download and install **VirtualBox** to run virtual machines on your computer:
-* **Link:** [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+## 🎯 Program Focus Areas
+* **Network Security & Architecture:** Isolated lab configurations and subnet management.
+* **Vulnerability Assessment & Pen Testing:** Reconnaissance, scanning, and exploit analysis.
+* **Security Operations & Incident Response:** Telemetry inspection and digital forensics.
+* **Risk Mitigation:** Applying industry-standard cybersecurity best practices.
 
 ---
 
-### 🔹 Step 3: Create a NAT Network
-Set up a private network (`10.0.0.0/24`) so your virtual machines can talk to each other safely.
+## 📂 Documentation & Tasks
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/f77d4031-82ca-42dc-8dc0-a6f4789bd2ec" alt="Set Network Subnet" width="85%" />
-  <p><em>1. Set the IPv4 Prefix to <code>10.0.0.0/24</code></em></p>
-</div>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/12285dbc-1410-4f5d-a79f-99082d1ec7d8" alt="Add NAT Network" width="85%" />
-  <p><em>2. Save and apply the new NAT Network</em></p>
-</div>
+| Module / Milestone | Description | Status |
+| :--- | :--- | :--- |
+| **Week 1: Lab Environment** | Isolated NAT network, VirtualBox & Kali Linux baseline | [📄 View Setup](./week1-Lab-Setup.md) |
+| **Week 2: Vulnerability Assessment** | Network scanning, reconnaissance & risk analysis | *In Progress* |
+| **Week 3: Penetration Testing** | Exploitation methodologies & endpoint security | *Upcoming* |
+| **Week 4: Operations & Forensics** | Incident response, log analysis & system hardening | *Upcoming* |
 
 ---
 
-### 🔹 Step 4: Download Kali Linux
-Download the ready-to-use **Kali Linux** virtual machine file and open it in VirtualBox:
-* **Link:** [Download Kali Linux VM](https://kali.org/get-kali)
-
----
-
-### 🔹 Step 5: Connect Kali to the Network
-Set Kali's network adapter to use your NAT Network, then start the machine and check that it receives an IP address.
-
-<div align="center">
- ![Uploading Screenshot 2026-08-11 160214.png…]()
-
- 
-<img width="953" height="439" alt="Screenshot 2026-08-11 160214" src="https://github.com/user-attachments/assets/b0d5e721-8db8-4b92-83fb-d63d5024aed6" />
-
-  <p><em>1. Set Adapter 1 to <b>NAT Network</b></em></p>
-</div>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/7847830e-2356-45a0-b767-157f2d0c8d11" alt="Check IP Address" width="50%" />
-  <p><em>2. Confirm you have a <code>10.0.0.2</code> IP address</em></p>
-</div>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/4c565de3-7bb3-447b-9cea-4529f509c5ea" alt="Snapshot Created" width="90%" />
-  <p><em>3. Making sure the VM is Connected to the network</em></p>
-</div>
-
----
-
-### 🔹 Step 6: Save a Snapshot
-Take a snapshot of your fresh setup. This lets you restore Kali anytime if something breaks during practice.
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/8a713348-ffb4-4521-8184-e943760be4cf" alt="Click Take Snapshot" width="65%" />
-  <p><em>1. Click <b>Take</b> to create a snapshot</em></p>
-</div>
+## 🛠️ Environment & Stack
+* **Virtualization:** Oracle VirtualBox
+* **Operating Systems:** Kali Linux (`10.0.0.0/24` NAT network)
+* **Core Utilities:** 7-Zip, Network Managers, Snapshot Baselines
