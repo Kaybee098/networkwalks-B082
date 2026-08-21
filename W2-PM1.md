@@ -1,14 +1,14 @@
 # 🔍 Week 2: Footprinting & Reconnaissance
 
-This module covers passive information gathering and reconnaissance against a live target using standard Kali Linux utilities[cite: 1]. The goal is to enumerate domain ownership, DNS records, server technologies, HTTP headers, and defensive controls without engaging in active exploitation[cite: 1].
+This module covers passive information gathering and reconnaissance against a live target using standard Kali Linux utilities. The goal is to enumerate domain ownership, DNS records, server technologies, HTTP headers, and defensive controls without engaging in active exploitation.
 
 ---
 
 ## 🛠️ Tasks & Findings
 
 ### 🔹 Task 1: Domain Registration Enumeration (`whois`)
-* **Objective:** Identify the registrar, creation/expiration timeline, abuse contacts, and authoritative name servers[cite: 1].
-* **Key Finding:** Revealed domain registration through GoDaddy and hosting delegation to HostGator name servers (`NS56135.HOSTGATOR.COM` / `NS56136.HOSTGATOR.COM`)[cite: 1].
+* **Objective:** Identify the registrar, creation/expiration timeline, abuse contacts, and authoritative name servers.
+* **Key Finding:** Revealed domain registration through GoDaddy and hosting delegation to HostGator name servers (`NS56135.HOSTGATOR.COM` / `NS56136.HOSTGATOR.COM`).
 
 <div align="center">
   <img width="624" height="289" alt="image" src="https://github.com/user-attachments/assets/cdadf47b-78d9-4708-bde7-fd939b3a7df2" />
@@ -18,8 +18,8 @@ This module covers passive information gathering and reconnaissance against a li
 ---
 
 ### 🔹 Task 2: Web Technology Fingerprinting (`whatweb`)
-* **Objective:** Fingerprint backend servers, content management systems (CMS), plugins, and UI frameworks[cite: 1].
-* **Key Finding:** Identified an Apache web server, WordPress 7.0.4 CMS, WordPress Download Manager (v3.3.58), jQuery 3.7.1, and an administrative contact email[cite: 1].
+* **Objective:** Fingerprint backend servers, content management systems (CMS), plugins, and UI frameworks.
+* **Key Finding:** Identified an Apache web server, WordPress 7.0.4 CMS, WordPress Download Manager (v3.3.58), jQuery 3.7.1, and an administrative contact email.
 
 <div align="center">
   <img width="624" height="425" alt="image" src="https://github.com/user-attachments/assets/73aa9f1d-8997-49ee-ba59-a5a58af2d036" />
@@ -29,8 +29,8 @@ This module covers passive information gathering and reconnaissance against a li
 ---
 
 ### 🔹 Task 3: DNS Address Resolution (`nslookup`)
-* **Objective:** Map the target domain name to its direct public IPv4 address[cite: 1].
-* **Key Finding:** Successfully resolved `networkwalks.com` to host IP `192.232.216.135`[cite: 1].
+* **Objective:** Map the target domain name to its direct public IPv4 address.
+* **Key Finding:** Successfully resolved `networkwalks.com` to host IP `192.232.216.135`.
 
 <div align="center">
   <img width="624" height="251" alt="image" src="https://github.com/user-attachments/assets/71fda73b-d711-4e37-83ab-2796d207dc53" />
@@ -40,8 +40,8 @@ This module covers passive information gathering and reconnaissance against a li
 ---
 
 ### 🔹 Task 4: HTTP Response Header Analysis (`curl -I`)
-* **Objective:** Inspect HTTP response headers to uncover server software, caching layers, cookies, and hidden API routes[cite: 1].
-* **Key Finding:** Discovered active HTTP/2 protocol, Apache server banner, Nginx caching (`x-nginx-cache: WordPress`), and exposed WordPress REST API endpoints (`/wp-json/`)[cite: 1].
+* **Objective:** Inspect HTTP response headers to uncover server software, caching layers, cookies, and hidden API routes.
+* **Key Finding:** Discovered active HTTP/2 protocol, Apache server banner, Nginx caching (`x-nginx-cache: WordPress`), and exposed WordPress REST API endpoints (`/wp-json/`).
 
 <div align="center">
   <img width="624" height="287" alt="image" src="https://github.com/user-attachments/assets/750376af-159d-4c89-a8ca-0e2f12f8eaaa" />
@@ -51,8 +51,8 @@ This module covers passive information gathering and reconnaissance against a li
 ---
 
 ### 🔹 Task 5: Web Application Firewall Detection (`wafw00f`)
-* **Objective:** Check if incoming web requests are monitored or filtered by a Web Application Firewall (WAF)[cite: 1].
-* **Key Finding:** Target site is actively protected by **ModSecurity (SpiderLabs) WAF**[cite: 1].
+* **Objective:** Check if incoming web requests are monitored or filtered by a Web Application Firewall (WAF).
+* **Key Finding:** Target site is actively protected by **ModSecurity (SpiderLabs) WAF**.
 
 <div align="center">
   <img width="624" height="288" alt="image" src="https://github.com/user-attachments/assets/73a3909d-edad-4645-8db0-8f3592929900" />
@@ -62,8 +62,8 @@ This module covers passive information gathering and reconnaissance against a li
 ---
 
 ### 🔹 Task 6: Full DNS Footprinting (`dnsrecon`)
-* **Objective:** Enumerate complete zone records including SOA, NS, MX, TXT (SPF), and service (SRV) endpoints[cite: 1].
-* **Key Finding:** Mapped mail server routing (`mail.networkwalks.com`), Bind DNS version `9.16.23-RH`, SPF authentication policy, and multiple cPanel autodiscover SRV records[cite: 1].
+* **Objective:** Enumerate complete zone records including SOA, NS, MX, TXT (SPF), and service (SRV) endpoints.
+* **Key Finding:** Mapped mail server routing (`mail.networkwalks.com`), Bind DNS version `9.16.23-RH`, SPF authentication policy, and multiple cPanel autodiscover SRV records.
 
 <div align="center">
   <img width="624" height="542" alt="image" src="https://github.com/user-attachments/assets/f36c8dc8-73ac-4d66-bb43-fc14c1dd3075" />
