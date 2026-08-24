@@ -20,21 +20,20 @@ This module demonstrates passive Open Source Intelligence (OSINT) footprinting u
 ## 🛠️ Tool Syntax & Options
 
 Reviewing the CLI parameters and supported OSINT search modules:
-
-    ```bash
+```bash
   theHarvester -h
-
+```
 ## 🚀 Tasks & Execution
 
 ### 🔹 Task 1: Search Emails & Subdomains Using Baidu
-* **Objective:** Query `microsoft.com` using the Baidu search engine with a limit of 1000 results[cite: 3].
+* **Objective:** Query `microsoft.com` using the Baidu search engine with a limit of 1000 results.
 * **Command:**
   ```bash
   theHarvester -d microsoft.com -l 1000 -b baidu
 <img width="462" height="433" alt="Screenshot 2026-08-24 111852" src="https://github.com/user-attachments/assets/a99fb971-a2f5-4f7b-9eb6-768714806c90" />
 
 ### 🔹 Task 2: Search Emails & Subdomains Using Baidu
-* **Objective:** Query `microsoft.com` using the Baidu search engine with a limit of 1000 results[cite: 3].
+* **Objective:** Query `microsoft.com` using the Baidu search engine with a limit of 1000 results.
 * **Command:**
   ```bash
   theHarvester -d microsoft.com -l 50 -b baidu
