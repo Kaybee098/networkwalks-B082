@@ -21,8 +21,8 @@ This module demonstrates passive Open Source Intelligence (OSINT) footprinting u
 
 Reviewing the CLI parameters and supported OSINT search modules:
 
-```bash
-theHarvester -h
+    ```bash
+  theHarvester -h
 
 ## 🚀 Tasks & Execution
 
